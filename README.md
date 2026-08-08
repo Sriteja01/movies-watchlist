@@ -197,6 +197,8 @@ Create a `.env` file:
 VITE_TMDB_API_KEY=your_api_key_here
 ```
 
+**Regional access note:** Some users report that direct requests to the TMDB API may be restricted from certain locations (for example, India). If you experience access errors, consider using a VPN or deploying a server-side proxy in a region where the API is reachable. A server-side proxy is recommended for production because it also keeps the API key private.
+
 ### Important
 
 Do **not** commit your `.env` file to GitHub.
@@ -367,25 +369,3 @@ This project demonstrates practical experience with:
 * Vite-based development workflows
 
 ---
-
-## 📄 License
-
-This project is available for educational and personal use.
-
-If you intend to distribute or publish the project, consider adding an appropriate open-source license such as the **MIT License**.
-
----
-
-## 👨‍💻 Author
-
-**Sriteja**
-
-Computer Science & Engineering
-
-[GitHub](https://github.com/)
-
----
-
-### ⭐ If you found this project useful
-
-Consider giving the repository a ⭐ on GitHub.
